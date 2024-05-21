@@ -1,14 +1,15 @@
 import { createStore } from 'vuex'
+import teachersModule from './teachers/index.js'
+import requestsModule from './requests/index.js'
+import authModule from './auth/index.js'
 
-export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+const store = createStore({
   modules: {
-  }
+    teachers: teachersModule,
+    requests: requestsModule,
+    auth: authModule
+  },
+  
 })
+
+export default store

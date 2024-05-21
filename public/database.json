@@ -1,0 +1,75 @@
+{
+    "Teachers": {
+      "1": {
+        "id": 1,
+        "price": 50,
+        "firstname": "John",
+        "lastname": "Doe",
+        "subjects": ["biology", "chemistry"],
+        "description": "Experienced teacher with a passion for science."
+      },
+      "2": {
+        "id": 2,
+        "price": 40,
+        "firstname": "Alice",
+        "lastname": "Smith",
+        "subjects": ["mathematics", "physics"],
+        "description": "Math and physics enthusiast ready to help students succeed."
+      },
+      "3": {
+        "id": 3,
+        "price": 45,
+        "firstname": "Emily",
+        "lastname": "Jones",
+        "subjects": ["literature", "history"],
+        "description": "Dedicated teacher with expertise in literature and history."
+      },
+      "4": {
+        "id": 4,
+        "price": 55,
+        "firstname": "Michael",
+        "lastname": "Brown",
+        "subjects": ["computer science", "programming"],
+        "description": "Passionate about teaching computer science and programming."
+      }
+    },
+    "Requests": {
+      "1": {
+        "id": 1,
+        "email": "example@example.com",
+        "message": "I would like to schedule a tutoring session.",
+        "teacherid": 1
+      },
+      "2": {
+        "id": 2,
+        "email": "another@example.com",
+        "message": "Can you help me with my chemistry homework?",
+        "teacherid": 2
+      },
+      "3": {
+        "id": 3,
+        "email": "student@example.com",
+        "message": "I need assistance with math.",
+        "teacherid": 2
+      },
+      "4": {
+        "id": 4,
+        "email": "test@example.com",
+        "message": "Looking for help in computer science.",
+        "teacherid": 4
+      },
+      "5": {
+        "id": 5,
+        "email": "help@example.com",
+        "message": "Do you teach literature?",
+        "teacherid": 3
+      },
+      "6": {
+        "id": 6,
+        "email": "urgent@example.com",
+        "message": "Urgent help needed in history.",
+        "teacherid": 3
+      }
+    }
+  }
+  
