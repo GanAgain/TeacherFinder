@@ -1,4 +1,5 @@
-# teacher-finder
+# Place to find your tutor
+# Vue.js project with Vuex, Options API and Firebase
 
 ## Project setup
 ```
